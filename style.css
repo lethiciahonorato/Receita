@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: hsl(30, 10%, 34%);      
+}
+
+.container {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 12px;
+}
+
+.box {
+    margin: 20px 20px;
+}
+.omelette {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.main, .ingredients, .instructions, .nutrition{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    margin-bottom: 20px;
+}
+
+.main-title {
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.preparation-title{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-title, .instructions-title, .nutrition-title {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+ul, li {
+    list-style-type: style color;
+}
+
+.nutrition-paragraph {
+    margin-bottom: 20px;
+}
+
+td {
+    padding-left: 20px;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fat {
+    border-bottom: none;
+}
+
+.nutrition {
+  box-sizing: border-box;
+  overflow: hidden; /* impede de vazar */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: 1000;
+}
+
+.list, .main-paragraph, .nutrition-paragraph, .preparation {
+    font-family: "Outfit", sans-serif;
+}
+
+.attribution {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;        
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+@media (max-width: 375px) {
+    .container{
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .attribution {
+        background-color: hsl(31, 100%, 96%);
+    }
+}
