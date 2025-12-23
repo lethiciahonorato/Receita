@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+    flex: 1;
     background: #fff;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -114,7 +115,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 740px) {
     .container{
         min-width: 100vw;
         min-height: 100vh;
@@ -127,4 +128,8 @@ a {
     .attribution {
         background-color: hsl(31, 100%, 96%);
     }
+}
+
+footer {
+    text-align: center;
 }
